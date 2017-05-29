@@ -1,0 +1,285 @@
+{
+    "nextPageAfter": "",
+    "counters": [
+        {
+            "count": 10,
+            "type": "total"
+        }
+    ],
+    "itemsPerPage": 15,
+    "entries": [
+        {
+            "targets": [],
+            "updatedTime": "2017-03-16",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-16",
+            "createdTime": "None",
+            "object": {
+                "id": 59,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "59",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 11,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "11",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 8,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "8",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-16",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-16",
+            "createdTime": "None",
+            "object": {
+                "id": 60,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "60",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 9,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "9",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 9,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "9",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 19,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "19",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 8,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "8",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 11,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "11",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "2017-03-15",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/2017-03-15",
+            "createdTime": "None",
+            "object": {
+                "id": 15,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "id": "15",
+                    "remediation": null,
+                    "similarity": 100.0
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        }
+    ],
+    "query": "select%20similar_correlated_alarms%20from%20correlated_alarm%20where%20correlatedAlarmId=438",
+    "nextSince": "2017-05-11 11:56:55.183003",
+    "updated": "2017-05-11T11:56:55.182998"
+}

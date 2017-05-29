@@ -1,0 +1,90 @@
+{
+    "nextPageAfter": "",
+    "counters": [
+        {
+            "count": 1,
+            "type": "total"
+        }
+    ],
+    "itemsPerPage": 15,
+    "entries": [
+        {
+            "targets": [],
+            "updatedTime": "2017-03-10",
+            "actor": {
+                "id": "Augur_Networks_1",
+                "title": "1",
+                "objectType": "CorrelationEngine",
+                "status": "1"
+            },
+            "geo": null,
+            "id": "1/1489133238.0",
+            "createdTime": "None",
+            "object": {
+                "id": 438,
+                "objectTypes": [
+                    "CorrelatedAlarm"
+                ],
+                "content": {
+                    "alarmCount": 3,
+                    "layers": null,
+                    "probableRootCause": "",
+                    "possibleRemediation": null,
+                    "similarPastIncidents": [
+                        8,
+                        9,
+                        11,
+                        15,
+                        19,
+                        59,
+                        60
+                    ],
+                    "priority": 1,
+                    "serviceOutage": [
+                        {
+                            "geo": {
+                                "type": "Point",
+                                "geometry": {
+                                    "coordinates": [
+                                        "-89.7765318",
+                                        "39.9219186"
+                                    ]
+                                },
+                                "properties": null
+                            },
+                            "serviceType": "LTE",
+                            "deviceName": "CKKPPTCYBBU001",
+                            "attrs": {}
+                        }
+                    ],
+                    "serviceDegradation": [
+                        {
+                            "geo": {
+                                "type": "Point",
+                                "geometry": {
+                                    "coordinates": [
+                                        "-89.651577",
+                                        "39.749084"
+                                    ]
+                                },
+                                "properties": null
+                            },
+                            "serviceType": "ServiceType.LTE",
+                            "deviceName": "CKKPRSCUBBU001",
+                            "attrs": {
+                                "capacity_loss": 22
+                            }
+                        }
+                    ],
+                    "domains": null
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        }
+    ],
+    "query": "select%20*%20from%20correlated_alarm%20where%20correlatedAlarmId=438",
+    "nextSince": "2017-05-11 11:49:54.781687",
+    "updated": "2017-05-11T11:49:54.781682"
+}

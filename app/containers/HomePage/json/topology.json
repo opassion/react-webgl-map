@@ -1,0 +1,213 @@
+{
+    "paths": [
+        {
+            "rels": [
+                {
+                    "layers": [
+                        "Tunnel_Layer1"
+                    ],
+                    "sourceNodeId": "-89.7765318:39.9219186",
+                    "relType": "PathRelType.Tunnel",
+                    "targetNodeId": "-90.034451:39.834018",
+                    "relId": "CKKPPTCYESR001::CKKPBULNPAR001",
+                    "attrs": {
+                        "name": "MPLS LSP CKKPPTCYESR001-->CKKPBULNPAR001"
+                    }
+                },
+                {
+                    "layers": [
+                        "Tunnel_Layer1"
+                    ],
+                    "sourceNodeId": "-89.651577:39.749084",
+                    "relType": "PathRelType.Tunnel",
+                    "targetNodeId": "-90.034451:39.834018",
+                    "relId": "CKKPRSCUESR001::CKKPBULNPAR001",
+                    "attrs": {
+                        "name": "MPLS LSP CKKPRSCUESR001-->CKKPBULNPAR001"
+                    }
+                },
+                {
+                    "layers": [
+                        "IP"
+                    ],
+                    "sourceNodeId": "-89.651577:39.749084",
+                    "relType": "PathRelType.Interface",
+                    "targetNodeId": "-89.327976:40.002958",
+                    "relId": "source_if_CKKPRSCUESR001:BD355_target_if_CKKPCDMBESR001:BD354",
+                    "attrs": {
+                        "name": "source_if_CKKPRSCUESR001:BD355_target_if_CKKPCDMBESR001:BD354"
+                    }
+                },
+                {
+                    "layers": [
+                        "IP"
+                    ],
+                    "sourceNodeId": "-89.327976:40.002958",
+                    "relType": "PathRelType.Interface",
+                    "targetNodeId": "-89.736999:40.324436",
+                    "relId": "source_if_CKKPCDMBESR001:BD355_target_if_CKKPCHRPESR001:BD354",
+                    "attrs": {
+                        "name": "source_if_CKKPCDMBESR001:BD355_target_if_CKKPCHRPESR001:BD354"
+                    }
+                },
+                {
+                    "layers": [
+                        "IP"
+                    ],
+                    "sourceNodeId": "-89.736999:40.324436",
+                    "relType": "PathRelType.Interface",
+                    "targetNodeId": "-90.034451:39.834018",
+                    "relId": "source_if_CKKPCHRPESR001:BD355_target_if_CKKPBULNPAR001:BD363",
+                    "attrs": {
+                        "name": "source_if_CKKPCHRPESR001:BD355_target_if_CKKPBULNPAR001:BD363"
+                    }
+                },
+                {
+                    "layers": [
+                        "IP"
+                    ],
+                    "sourceNodeId": "-89.651577:39.749084",
+                    "relType": "PathRelType.Interface",
+                    "targetNodeId": "-89.7765318:39.9219186",
+                    
+                    "relId": "source_if_CKKPRSCUESR001:BD354_target_if_CKKPPTCYESR001:BD355",
+                    "attrs": {
+                        "name": "source_if_CKKPRSCUESR001:BD354_target_if_CKKPPTCYESR001:BD355"
+                    }
+                }
+            ],
+            "nodes": [
+                {
+                    "groups": [],
+                    "layers": [
+                        "Tunnel_Layer1",
+                        "IP"
+                    ],
+                    "nodeType": "PathNodeType.Group",
+                    "geo": {
+                        "type": "Point",
+                        "geometry": {
+                            "coordinates": [
+                                "-90.034451",
+                                "39.834018"
+                            ]
+                        },
+                        "properties": null
+                    },
+                    "nodeId": "-90.034451:39.834018",
+                    "alarm": {},
+                    "attrs": {
+                        "group_type": "Location",
+                        "display_name": "INMPCKKPBULNTW0001NA1",
+                        "name": "-90.034451:39.834018"
+                    }
+                },
+                {
+                    "groups": [],
+                    "layers": [
+                        "Tunnel_Layer1",
+                        "IP",
+                        "LTE"
+                    ],
+                    "nodeType": "PathNodeType.Group",
+                    "geo": {
+                        "type": "Point",
+                        "geometry": {
+                            "coordinates": [
+                                "-89.651577",
+                                "39.749084"
+                            ]
+                        },
+                        "properties": null
+                    },
+                    "nodeId": "-89.651577:39.749084",
+                    "alarm": {},
+                    "attrs": {
+                        "group_type": "Location",
+                        "display_name": "INMPCKKPRSCUTW0001ENB",
+                        "name": "-89.651577:39.749084"
+                    }
+                },
+                {
+                    "groups": [],
+                    "layers": [
+                        "Tunnel_Layer1",
+                        "IP",
+                        "LTE"
+                    ],
+                    "nodeType": "PathNodeType.Group",
+                    "geo": {
+                        "type": "Point",
+                        "geometry": {
+                            "coordinates": [
+                                "-89.7765318",
+                                "39.9219186"
+                            ]
+                        },
+                        "properties": null
+                    },
+                    "nodeId": "-89.7765318:39.9219186",
+                    "alarm": {
+                        "present": 1
+                    },
+                    "attrs": {
+                        "group_type": "Location",
+                        "display_name": "INMPCKKPPTCYTW0002ENB",
+                        "name": "-89.7765318:39.9219186"
+                    }
+                },
+                {
+                    "groups": [],
+                    "layers": [
+                        "Tunnel_Layer1",
+                        "IP"
+                    ],
+                    "nodeType": "PathNodeType.Group",
+                    "geo": {
+                        "type": "Point",
+                        "geometry": {
+                            "coordinates": [
+                                "-89.736999",
+                                "40.324436"
+                            ]
+                        },
+                        "properties": null
+                    },
+                    "nodeId": "-89.736999:40.324436",
+                    "alarm": {},
+                    "attrs": {
+                        "group_type": "Location",
+                        "display_name": "INMPCKKPCHRPTW0001ENB",
+                        "name": "-89.736999:40.324436"
+                    }
+                },
+                {
+                    "groups": [],
+                    "layers": [
+                        "Tunnel_Layer1",
+                        "IP"
+                    ],
+                    "nodeType": "PathNodeType.Group",
+                    "geo": {
+                        "type": "Point",
+                        "geometry": {
+                            "coordinates": [
+                                "-89.327976",
+                                "40.002958"
+                            ]
+                        },
+                        "properties": null
+                    },
+                    "nodeId": "-89.327976:40.002958",
+                    "alarm": {},
+                    "attrs": {
+                        "group_type": "Location",
+                        "display_name": "INMPCKKPCDMBTW0001ENB",
+                        "name": "-89.327976:40.002958"
+                    }
+                }
+            ]
+        }
+    ],
+    "num_of_path": 1
+}

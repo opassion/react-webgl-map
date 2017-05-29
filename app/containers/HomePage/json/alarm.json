@@ -1,0 +1,120 @@
+{
+    "nextPageAfter": "",
+    "counters": [
+        {
+            "count": 3,
+            "type": "total"
+        }
+    ],
+    "itemsPerPage": 15,
+    "entries": [
+        {
+            "targets": [],
+            "updatedTime": "1489182047.0",
+            "actor": {
+                "id": "CKKPPTCYESR001",
+                "title": "1",
+                "objectType": "Device",
+                "status": "1"
+            },
+            "geo": {
+                "type": "Point",
+                "geometry": {
+                    "coordinates": [
+                        "-119.653203",
+                        "36.655815"
+                    ]
+                },
+                "properties": null
+            },
+            "id": ".oc.MP_MPLS alarm_object 5377185",
+            "createdTime": "1489182047.0",
+            "object": {
+                "id": ".oc.MP_MPLS alarm_object 5377185",
+                "objectTypes": [
+                    "Alarm"
+                ],
+                "content": {
+                    "text": "Node Down",
+                    "alarmType": "NodeDown"
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "1489181804.0",
+            "actor": {
+                "id": "CKKPPTCYBBU001",
+                "title": "1",
+                "objectType": "Device",
+                "status": "1"
+            },
+            "geo": {
+                "type": "Point",
+                "geometry": {
+                    "coordinates": [
+                        "-119.653203",
+                        "36.655815"
+                    ]
+                },
+                "properties": null
+            },
+            "id": ".oc.MP_LSM-R alarm_object 8308139",
+            "createdTime": "1489181804.0",
+            "object": {
+                "id": ".oc.MP_LSM-R alarm_object 8308139",
+                "objectTypes": [
+                    "Alarm"
+                ],
+                "content": {
+                    "text": "Protocol Status Alarm ( Communication Fail : SNMP )\r\tsysUpTimesysUpTime=34 days, 8:49:53.42\r\tsnmpTrapOID=1.3.6.1.4.1.236.4.3.101.1.2.0.8\r\temsAlarmLocation=/INMHMOUDXXXXNB0001SA2REM003/I-MP-CKKP-ENB-0013\r\temsAlarmEventTime=2017-03-10T13:36:44.0+05:00\r\temsAlarmText=Protocol Status Alarm ( Communication Fail : SNMP )\r\temsAlarmPerceivedSeverity=critical\r\temsAlarmEventType=communicationsAlarm\r\temsAlarmNotificationId=357818\r\temsAlarmProbableCause=2006\r\temsAlarmNeType=nms\r\temsAlarmClei=(2006)/INMHMOUDXXXXNB0001SA2REM003/I-MP-CKKP-ENB-0013.1",
+                    "alarmType": "SNMPFail"
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        },
+        {
+            "targets": [],
+            "updatedTime": "1489181812.0",
+            "actor": {
+                "id": "CKKPPTCYBBU001",
+                "title": "1",
+                "objectType": "Device",
+                "status": "1"
+            },
+            "geo": {
+                "type": "Point",
+                "geometry": {
+                    "coordinates": [
+                        "-119.653203",
+                        "36.655815"
+                    ]
+                },
+                "properties": null
+            },
+            "id": ".oc.MP_LSM-R alarm_object 8308189",
+            "createdTime": "1489181812.0",
+            "object": {
+                "id": ".oc.MP_LSM-R alarm_object 8308189",
+                "objectTypes": [
+                    "Alarm"
+                ],
+                "content": {
+                    "text": "Protocol Status Alarm ( Communication Fail : PING )\r\tsysUpTimesysUpTime=34 days, 8:50:01.55\r\tsnmpTrapOID=1.3.6.1.4.1.236.4.3.101.1.2.0.8\r\temsAlarmLocation=/INMHMOUDXXXXNB0001SA2REM003/I-MP-CKKP-ENB-0013\r\temsAlarmEventTime=2017-03-10T13:36:52.0+05:00\r\temsAlarmText=Protocol Status Alarm ( Communication Fail : PING )\r\temsAlarmPerceivedSeverity=critical\r\temsAlarmEventType=communicationsAlarm\r\temsAlarmNotificationId=357838\r\temsAlarmProbableCause=2007\r\temsAlarmNeType=nms\r\temsAlarmClei=(2007)/INMHMOUDXXXXNB0001SA2REM003/I-MP-CKKP-ENB-0013.1",
+                    "alarmType": "ReachabilityFail"
+                },
+                "counters": null
+            },
+            "source": null,
+            "provider": null
+        }
+    ],
+    "query": "select%20*%20from%20alarm%20where%20correlatedAlarmId=438",
+    "nextSince": "2017-05-11 12:00:23.014557",
+    "updated": "2017-05-11T12:00:23.014551"
+}
